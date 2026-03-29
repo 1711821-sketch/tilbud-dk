@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/food-waste", "destination": "/api/food-waste" },
+    { "source": "/api/offers", "destination": "/api/offers" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
